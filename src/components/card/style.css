@@ -1,0 +1,42 @@
+.card {
+    width: 380px;
+    height: 380px;
+    display: flex;
+    align-items: center;
+    border-radius: 1rem;
+    border-color: rgb(255, 102, 0);
+    border-width: 5px;
+}
+
+.body-img {
+    width: 300px;
+    height: 300px;
+}
+
+.card-title {
+    height: 40px;
+    width: 350px;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+
+.div-margin {
+    width: 410px;
+    height: 410px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    transition: all 0.3s ease-out;
+    box-shadow: 0 0 0.2rem rgb(255, 255, 255);
+
+}
+
+.div-margin:hover {
+    cursor: pointer;
+    transform: translate(0px, -4px);
+    transform: scale(1.04);
+    color: rgb(255, 0, 0);
+}

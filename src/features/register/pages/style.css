@@ -1,0 +1,18 @@
+.fluid-register {
+    height: 100vh;
+}
+
+.row-register-full-screen {
+    background-color: rgb(255, 102, 0);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.col-container-register {
+    background-color: #ffffff;
+    height: 80%;
+    width: 25rem;
+    border-radius: 2rem;
+}

@@ -1,0 +1,43 @@
+.div-password {
+    display: flex;
+    justify-content: end;
+}
+
+.div-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem
+}
+
+.div-sign {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem
+}
+
+.div-icon {
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px
+}
+
+.div-register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    gap: 3px
+}
+.icon-git{
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border: none;
+    overflow: hidden;
+}
+.icon-git:hover {
+    opacity: 0.6;
+  }

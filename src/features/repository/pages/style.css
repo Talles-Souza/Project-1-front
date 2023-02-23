@@ -1,0 +1,113 @@
+.fluid-home {
+    height: 100vh;
+    background-color: #a8d2dd;
+
+}
+
+.row-full-screen-home {
+    background-color: #313cd3;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.col-top-login {
+    background-color: rgb(255, 102, 0);
+    height: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.col-low {
+    background-color: #ffff;
+    height: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icon-logout {
+    color: rgb(255, 102, 0);
+    cursor: pointer;
+    width: 0.5rem;
+}
+
+.col-full-repository {
+    background-color: rgb(255, 102, 0);
+    width: 100%;
+    height: 85%;
+
+    margin: auto;
+    gap: 2rem;
+
+}
+
+.row-repository {
+    background-color: rgb(255, 102, 0);
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.col-repository1a {
+    background-color: rgb(255, 255, 255);
+    height: 98%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    border-radius: 1rem;
+    border: 2px solid rgb(255, 236, 236);
+    border-radius: 80px 15px;
+    
+}
+
+.col-repository1b {
+    background-color: rgb(255, 255, 255);
+    height: 96%;
+    width: 40%;
+    border: 2px solid rgb(255, 236, 236);
+    border-radius: 80px 15px;
+    margin-bottom: 10px;
+
+}
+
+.row-repository2 {
+    background-color: rgb(255, 102, 0);
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(max-width: 800px) {
+    .col-repository1a {
+        width: 80%;
+    }
+    .col-repository1b {
+        width: 80%;
+    }
+}
+@media(max-width: 1700px) {
+    .col-repository1a {
+        width: 60%;
+    }
+    .col-repository1b {
+        width: 60%;
+    }
+}
+
+.card-repository-dois{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
